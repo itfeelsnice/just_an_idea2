@@ -1,0 +1,36 @@
+
+body{
+    overflow: hidden;
+    inset: 0px;
+    margin: 0px;
+}
+
+#div1{
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    top: 20%;
+    left: 35%;
+    box-shadow: 3px 3px 30px gray, -3px -3px 30px gray;
+}
+
+#img1{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
