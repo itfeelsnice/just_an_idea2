@@ -1,7 +1,7 @@
 
 body{
     overflow: hidden;
-    background-color: white;
+    background-color: rgb(255, 224, 48);
     height: 100vh;
 }
 
@@ -9,7 +9,7 @@ body{
     inset: 0;
     position: fixed;
     pointer-events: none;
-    background-size: 200px 200px;
+    background-size: 150px 150px;
     background-image: 
         radial-gradient(2px 2px at 70% 30%, black, transparent),
         radial-gradient(1px 2px at 10% 80%, black, transparent),
@@ -40,6 +40,11 @@ body{
     width: 15vmax;
     height: 2vmax;
     font-size: 22px;
+    background-color: rgb(255, 224, 48);
+}
+
+.inp::placeholder{
+    color: black;
 }
 
 #inp1{
@@ -62,6 +67,7 @@ body{
     top: 60%;
     left: 32%;
     font-size: 25px;
+    background-color: rgb(255, 224, 48);
 }
 
 #img1{
@@ -98,3 +104,30 @@ body{
 @keyframes horse_move2 {
     100%{transform: translateX(-1500px) scale(2, 2) rotateY(180deg);}
 }
+
+/* i made all this in like 1 hour and 30 minutes i finished at 8.24 on 10.02.2026 */
+
+/* i started to code at 5.24 on 11.02.2026 */
+
+#h1{
+    position: absolute;
+    top: 60%;
+    left: 42%;
+    font-size: 1vmax;
+    color: rgb(255, 224, 48);
+    text-decoration: underline;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
