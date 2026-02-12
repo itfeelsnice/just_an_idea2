@@ -22,13 +22,37 @@ body{
     height: 400px;
 }
 
+#div2{
+    position: absolute;
+    left: 45%;
+}
 
+h1{
+    font-size: 30px;
+}
 
+li{
+    font-size: 25px;
+}
 
+#div3{
+    position: absolute;
+    left: 2%;
+    top: 5%;
+}
 
+.addthing{
+    animation: rotate;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
 
-
-
+@keyframes rotate {
+    100%{transform: rotateZ(360deg);}
+}
 
 
 

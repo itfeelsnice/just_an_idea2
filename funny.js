@@ -9,8 +9,14 @@ function check1(){
     let b = inp2.value.trim()
     if (a.length >= 8 && b.length >= 8){
         window.location.href = "horse.html";
-    } else{
-        h1.textContent = "you left the boxes empty or you need more letters"
+    }else if(a.length === 0 && b.length === 0){
+        h1.textContent = `both boxes are empty`
+    }else if(a.length < 8 && b.length >= 8){
+        h1.textContent = `the first box needs to have more than 8 characters`
+    }else if(b.length < 8 && a.length >= 8){
+        h1.textContent = `the second box needs to have more than 8 characters`
+    }else if (a.length < 8 && b.length < 8){
+        h1.textContent = `both boxes need more characters`
     }
 }
 
