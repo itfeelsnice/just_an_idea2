@@ -15,6 +15,10 @@ function check1(){
         h1.textContent = `the first box needs to have more than 8 characters`
     }else if(b.length < 8 && a.length >= 8){
         h1.textContent = `the second box needs to have more than 8 characters`
+    }else if (a.length < 8 && b.length === 0){
+        h1.textContent = `the first box needs more characters and the second box is empty`
+    }else if (a.length === 0 && b.length < 8){
+        h1.textContent = `the second box needs more characters and the first box is empty`
     }else if (a.length < 8 && b.length < 8){
         h1.textContent = `both boxes need more characters`
     }

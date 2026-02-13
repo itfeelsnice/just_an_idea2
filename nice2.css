@@ -3,18 +3,35 @@ body{
     overflow: hidden;
     inset: 0px;
     margin: 0px;
+    background-color: rgb(255, 224, 48);
+}
+
+#a1{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+#btn2{
+    width: 10vmax;
+    height: 2vmax;
+    position: absolute;
+    top: 55%;
+    left: 44%;
+    border-radius: 30px;
+    background-color: rgb(255, 224, 48);
 }
 
 #div1{
     position: fixed;
     width: 500px;
     height: 500px;
-    background-color: white;
+    background-color: black;
     display: grid;
     place-items: center;
     top: 20%;
     left: 35%;
-    box-shadow: 3px 3px 30px gray, -3px -3px 30px gray;
+    box-shadow: 3px 3px 30px black, -3px -3px 30px black;
 }
 
 #img1{
@@ -25,6 +42,7 @@ body{
 #div2{
     position: absolute;
     left: 45%;
+    border: solid;
 }
 
 h1{
