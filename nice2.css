@@ -30,8 +30,21 @@ body{
     display: grid;
     place-items: center;
     top: 20%;
-    left: 35%;
+    left: 130%;
     box-shadow: 3px 3px 30px black, -3px -3px 30px black;
+}
+
+.remain{
+    animation: move1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move1{
+    100%{transform: translateX(-350%) rotateZ(360deg);}
 }
 
 #img1{
@@ -39,40 +52,88 @@ body{
     height: 400px;
 }
 
-#div2{
-    position: absolute;
-    left: 45%;
-    border: solid;
-}
-
-h1{
-    font-size: 30px;
-}
-
-li{
-    font-size: 25px;
-}
-
 #div3{
     position: absolute;
-    left: 2%;
+    left: 130%;
     top: 5%;
+    width: 550px;
+    height: 400px;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    box-shadow: 3px 3px 30px black, -3px -3px 30px black;
 }
 
-.addthing{
-    animation: rotate;
+.remain2{
+    animation: move2;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move2{
+    100%{transform: translateX(-450%) rotateZ(360deg);}
+}
+
+#div2{
+    position: absolute;
+    left: 130%;
+    top: 55%;
+    width: 580px;
+    height: 390px;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    box-shadow: 3px 3px 30px black, -3px -3px 30px black;
+}
+
+.remain3{
+    animation: move3;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move3{
+    100%{transform: translateX(-210%) rotateZ(360deg);}
+}
+
+#btn1{
+    width: 10vmax;
+    height: 2vmax;
+    position: absolute;
+    top: 85%;
+    left: 120%;
+    border-radius: 30px;
+    background-color: rgb(255, 224, 48);
+}
+
+.remain4{
+    animation: move4;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move4{
+    100%{transform: translateX(-730%);}
+}
+
+.rotate2{
+    animation: rotate12;
     animation-timing-function: linear;
     animation-duration: 4s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
 }
 
-@keyframes rotate {
-    100%{transform: rotateZ(360deg);}
+@keyframes rotate12 {
+    100%{transform: rotateZ(180deg);}
 }
-
-
-
-
 
