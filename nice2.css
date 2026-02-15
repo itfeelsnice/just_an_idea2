@@ -128,12 +128,12 @@ body{
 .rotate2{
     animation: rotate12;
     animation-timing-function: linear;
-    animation-duration: 4s;
+    animation-duration: 2.5s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
 }
 
 @keyframes rotate12 {
-    100%{transform: rotateZ(180deg);}
+    100%{transform: rotateZ(360deg);}
 }
 

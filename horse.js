@@ -40,6 +40,11 @@ btn1.addEventListener("click", () =>{
     img1.classList.toggle("rotate2");
     img2.classList.toggle("rotate2");
     img3.classList.toggle("rotate2");
+    if (btn1.textContent === `turn on`){
+        btn1.textContent = `turn off`;
+    } else if(btn1.textContent === `turn off`){
+        btn1.textContent = `turn on`;
+    }
 });
 
 // i started to code at 3.10 on 14.02.2026 today i will finish this project
